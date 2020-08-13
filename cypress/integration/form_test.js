@@ -36,7 +36,7 @@ describe('Our first cypress test', () => {
         .type('I really like to help')
         .should('have.value', 'I really like to help')
 
-        // now we will cover how to select button elements 
+        // now we will cover how to select dropdown elements 
         // everything will basically be the same, except instead of .type()
         // we will use the .select() method passing inside as a string the value we
         // want to select from our button 
